@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import cors from "cors";
 import express, { NextFunction, Response, Request } from "express";
 
+import "@shared/container";
+
 dotenv.config();
 
 import { routes } from "./routes";
