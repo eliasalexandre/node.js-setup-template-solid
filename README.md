@@ -4,15 +4,19 @@
 
 ## Overview
 
-- [X] Functions
-- [X] Features
-- [X] Highlights
+- [x] Http (Express)
+- [x] Typeorm (Database)
+- [x] linters: eslint | prettier
+- [x] uuid on creation
+- [x] Singleton
+- [x] handle errors
+- [x] handle user session
 
 ---
 
 🚧 **In order** 🚧
 
-- [X] Database docker image (pg) 
+- [x] Database docker image (pg)
 
 ---
 
