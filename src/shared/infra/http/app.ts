@@ -1,18 +1,16 @@
 import "reflect-metadata";
 import "express-async-errors";
-import dotenv from "dotenv";
 import cors from "cors";
+import dotenv from "dotenv";
 import express, { NextFunction, Response, Request } from "express";
 
+import "@shared/infra/typeorm";
 import "@shared/container";
 
-dotenv.config();
-
+import { AppError } from "../../errors/AppError";
 import { routes } from "./routes";
 
-import "@shared/container";
-import { AppError } from "../../errors/AppError";
-import "@shared/infra/typeorm"; // database_
+dotenv.config(); // database_
 
 // MIDDLEWARES
 const app = express();
