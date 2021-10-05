@@ -12,6 +12,7 @@ import { routes } from "./routes";
 
 import "@shared/container";
 import { AppError } from "../../errors/AppError";
+import "@shared/infra/typeorm"; // database_
 
 // MIDDLEWARES
 const app = express();
